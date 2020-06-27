@@ -1,0 +1,14 @@
+<html>
+    <head>
+      {% if title %}
+      <title>{{ title }} - Monthly</title>
+      {% else %}
+      <title>Monthly</title>
+      {% endif %}
+    </head>
+    <body>
+        <div>Monthly: <a href="/index">Home</a></div>
+        <hr>
+        {% block content %}{% endblock %}
+    </body>
+</html>
