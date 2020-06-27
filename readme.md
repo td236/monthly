@@ -1,5 +1,5 @@
-#Monthly
-###Simple expense tracker app
+# Monthly
+### Simple expense tracker app
 
 To setup:
 chmod 755 setup.sh
